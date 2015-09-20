@@ -96,7 +96,11 @@
         [self showLogin];
     }
     
-    [GZTUtilities uploadImageWithName:@"phys_banner.png" key:@"PHYS0175"];
+//    [GZTUtilities uploadImageWithName:@"phys_banner.jpg" key:@"PHYS0175"];
+//    [GZTUtilities uploadImageWithName:@"cs_banner.jpg" key:@"CS2001"];
+//    [GZTUtilities uploadImageWithName:@"ie_banner.jpg" key:@"IE256"];
+//    [GZTUtilities uploadImageWithName:@"cs_h_banner.jpg" key:@"CS2610"];
+    
     return YES;
 }
 

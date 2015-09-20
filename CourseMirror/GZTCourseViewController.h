@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 #import "LibraryAPI.h"
-#import <SlackTextViewController/SLKTextView.h>
-#import "DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h"
+#import "UIScrollView+EmptyDataSet.h"
+
 
 @interface GZTCourseViewController : UITableViewController<UITableViewDataSource, UITableViewDelegate, DZNEmptyDataSetDelegate, DZNEmptyDataSetSource>
 @property NSInteger numberOfLecture;

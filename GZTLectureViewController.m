@@ -112,14 +112,14 @@
     
     if([lectureDate compare:twoDayAgo] == NSOrderedAscending || [[(Lecture*)lectures[indexPath.row] answered] isEqualToString:@"YES"]){
         // lectureDate is earlier than twoDayAgo
-        statusIcon = [NSString fontAwesomeIconStringForEnum:FAIconOk];
+        statusIcon = [NSString fontAwesomeIconStringForEnum:FACheck];
         cell.statusStr = @"closed";
     }else if([lectureDate compare:now] == NSOrderedDescending){
         // lectureDate is later than twoDayAgo
-        statusIcon = [NSString fontAwesomeIconStringForEnum:FAIconLock];
+        statusIcon = [NSString fontAwesomeIconStringForEnum:FALock];
         cell.statusStr = @"upcoming";
     }else{
-        statusIcon = [NSString fontAwesomeIconStringForEnum:FAIconPencil];
+        statusIcon = [NSString fontAwesomeIconStringForEnum:FAPencil];
         cell.statusStr = @"open";
     }
     
@@ -185,7 +185,7 @@
 }
 
 - (void)refresh:(NSNotification *)notification {
-    NSLog(@"refresh in lec called");
+   // NSLog(@"refresh in lec called");
     [lecTable reloadData];
     
 }

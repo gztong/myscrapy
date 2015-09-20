@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5D7A8D8B-623B-407D-B6E1-21045FB545F2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CourseMirror</string>
+	<string>CourseMIRROR</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</key>
-		<string>https://github.com/zjether/CourseMirror_iOS.git</string>
+		<key>D3DA4AE07C4E2179103858E3CB8E050ED1D6B3B0</key>
+		<string>https://bitbucket.org/xiangmin_fan/coursemirror_ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CourseMirror.xcodeproj</string>
+	<string>CourseMIRROR.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</key>
+		<key>D3DA4AE07C4E2179103858E3CB8E050ED1D6B3B0</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/zjether/CourseMirror_iOS.git</string>
+	<string>https://bitbucket.org/xiangmin_fan/coursemirror_ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</string>
+	<string>D3DA4AE07C4E2179103858E3CB8E050ED1D6B3B0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</string>
+			<string>D3DA4AE07C4E2179103858E3CB8E050ED1D6B3B0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CourseMirror</string>
+			<string>CourseMirror_iOS</string>
 		</dict>
 	</array>
 </dict>

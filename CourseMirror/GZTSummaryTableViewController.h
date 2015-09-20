@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Lecture.h"
-#import "DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h"
+#import "UIScrollView+EmptyDataSet.h"
 
 
 @interface GZTSummaryTableViewController : UITableViewController<DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>

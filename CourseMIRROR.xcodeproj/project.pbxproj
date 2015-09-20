@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3780505D511B9F7D28C65DC0 /* Pods_CourseMirror.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6D17AEE2B9B3BE46927D50 /* Pods_CourseMirror.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		3D2C14FF1BA2203E00E0F8C2 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2C14FA1BA2203E00E0F8C2 /* DZNEmptyDataSet.framework */; };
-		3D2C15001BA2203E00E0F8C2 /* FontAwesome_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2C14FB1BA2203E00E0F8C2 /* FontAwesome_iOS.framework */; };
-		3D2C15011BA2203E00E0F8C2 /* PPiAwesomeButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2C14FC1BA2203E00E0F8C2 /* PPiAwesomeButton.framework */; };
-		3D2C15021BA2203E00E0F8C2 /* SHMultipleSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2C14FD1BA2203E00E0F8C2 /* SHMultipleSelect.framework */; };
-		3D2C15031BA2203E00E0F8C2 /* SlackTextViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2C14FE1BA2203E00E0F8C2 /* SlackTextViewController.framework */; };
 		E507CC4D1B6BD25C0002E509 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = E507CC4C1B6BD25C0002E509 /* Course.m */; };
 		E507CC501B6BD26F0002E509 /* Lecture.m in Sources */ = {isa = PBXBuildFile; fileRef = E507CC4F1B6BD26F0002E509 /* Lecture.m */; };
 		E507CC561B6BD2910002E509 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = E507CC551B6BD2910002E509 /* Question.m */; };
@@ -48,6 +42,12 @@
 		E53673B61B75556A00E141F4 /* GZTMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53673B51B75556A00E141F4 /* GZTMain.storyboard */; };
 		E53673B91B75562D00E141F4 /* GZTQuestionVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = E53673B81B75562D00E141F4 /* GZTQuestionVC1.m */; };
 		E53673BC1B75563900E141F4 /* GZTQuestionVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = E53673BB1B75563900E141F4 /* GZTQuestionVC2.m */; };
+		E54D8F101BAEFB82005846DB /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E54D8F0F1BAEFB82005846DB /* UIScrollView+EmptyDataSet.m */; };
+		E54D8F171BAEFC42005846DB /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E54D8F121BAEFC42005846DB /* NSString+FontAwesome.m */; };
+		E54D8F181BAEFC42005846DB /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E54D8F141BAEFC42005846DB /* UIFont+FontAwesome.m */; };
+		E54D8F191BAEFC42005846DB /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E54D8F161BAEFC42005846DB /* UIImage+FontAwesome.m */; };
+		E54D8F1E1BAEFCF8005846DB /* UIAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E54D8F1B1BAEFCF8005846DB /* UIAwesomeButton.m */; };
+		E54D8F1F1BAEFCF8005846DB /* UIButton+PPiAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E54D8F1D1BAEFCF8005846DB /* UIButton+PPiAwesome.m */; };
 		E5683D9F1B7955D2007BA5CB /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = E5683D9E1B7955D2007BA5CB /* Data.m */; };
 		E58D88B31B7AA81D0053EFA2 /* UIColor+PDD.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D88B21B7AA81D0053EFA2 /* UIColor+PDD.m */; };
 		E58D88B71B7AAA560053EFA2 /* GZTSummary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58D88B41B7AAA560053EFA2 /* GZTSummary.storyboard */; };
@@ -90,14 +90,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		218D118C4B3DBFE4E407A912 /* Pods-CourseMirror.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseMirror.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseMirror/Pods-CourseMirror.debug.xcconfig"; sourceTree = "<group>"; };
-		3D2C14FA1BA2203E00E0F8C2 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = "Pods/../build/Release-iphoneos/DZNEmptyDataSet.framework"; sourceTree = "<group>"; };
-		3D2C14FB1BA2203E00E0F8C2 /* FontAwesome_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome_iOS.framework; path = "Pods/../build/Release-iphoneos/FontAwesome_iOS.framework"; sourceTree = "<group>"; };
-		3D2C14FC1BA2203E00E0F8C2 /* PPiAwesomeButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PPiAwesomeButton.framework; path = "Pods/../build/Release-iphoneos/PPiAwesomeButton.framework"; sourceTree = "<group>"; };
-		3D2C14FD1BA2203E00E0F8C2 /* SHMultipleSelect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SHMultipleSelect.framework; path = "Pods/../build/Release-iphoneos/SHMultipleSelect.framework"; sourceTree = "<group>"; };
-		3D2C14FE1BA2203E00E0F8C2 /* SlackTextViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlackTextViewController.framework; path = "Pods/../build/Release-iphoneos/SlackTextViewController.framework"; sourceTree = "<group>"; };
-		95747D37E4603A0D67397380 /* Pods-CourseMirror.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseMirror.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseMirror/Pods-CourseMirror.release.xcconfig"; sourceTree = "<group>"; };
-		BD6D17AEE2B9B3BE46927D50 /* Pods_CourseMirror.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseMirror.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E507CC4B1B6BD25C0002E509 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
 		E507CC4C1B6BD25C0002E509 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		E507CC4E1B6BD26F0002E509 /* Lecture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lecture.h; sourceTree = "<group>"; };
@@ -153,6 +145,18 @@
 		E53673B81B75562D00E141F4 /* GZTQuestionVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZTQuestionVC1.m; sourceTree = "<group>"; };
 		E53673BA1B75563900E141F4 /* GZTQuestionVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZTQuestionVC2.h; sourceTree = "<group>"; };
 		E53673BB1B75563900E141F4 /* GZTQuestionVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZTQuestionVC2.m; sourceTree = "<group>"; };
+		E54D8F0E1BAEFB82005846DB /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		E54D8F0F1BAEFB82005846DB /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		E54D8F111BAEFC42005846DB /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		E54D8F121BAEFC42005846DB /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		E54D8F131BAEFC42005846DB /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		E54D8F141BAEFC42005846DB /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		E54D8F151BAEFC42005846DB /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		E54D8F161BAEFC42005846DB /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		E54D8F1A1BAEFCF8005846DB /* UIAwesomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAwesomeButton.h; sourceTree = "<group>"; };
+		E54D8F1B1BAEFCF8005846DB /* UIAwesomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAwesomeButton.m; sourceTree = "<group>"; };
+		E54D8F1C1BAEFCF8005846DB /* UIButton+PPiAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPiAwesome.h"; sourceTree = "<group>"; };
+		E54D8F1D1BAEFCF8005846DB /* UIButton+PPiAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPiAwesome.m"; sourceTree = "<group>"; };
 		E5683D9D1B7955D2007BA5CB /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		E5683D9E1B7955D2007BA5CB /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 		E58D88B11B7AA81D0053EFA2 /* UIColor+PDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PDD.h"; sourceTree = "<group>"; };
@@ -211,11 +215,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2C14FF1BA2203E00E0F8C2 /* DZNEmptyDataSet.framework in Frameworks */,
-				3D2C15001BA2203E00E0F8C2 /* FontAwesome_iOS.framework in Frameworks */,
-				3D2C15011BA2203E00E0F8C2 /* PPiAwesomeButton.framework in Frameworks */,
-				3D2C15021BA2203E00E0F8C2 /* SHMultipleSelect.framework in Frameworks */,
-				3D2C15031BA2203E00E0F8C2 /* SlackTextViewController.framework in Frameworks */,
 				E59519EA1B72A10300E34C9D /* Social.framework in Frameworks */,
 				E59519E81B72A0FE00E34C9D /* Accounts.framework in Frameworks */,
 				E507CC731B6BD5F60002E509 /* libsqlite3.dylib in Frameworks */,
@@ -230,7 +229,6 @@
 				E507CC5E1B6BD5150002E509 /* Parse.framework in Frameworks */,
 				E507CC5D1B6BD5150002E509 /* Bolts.framework in Frameworks */,
 				E507CC961B6EACD00002E509 /* ParseUI.framework in Frameworks */,
-				3780505D511B9F7D28C65DC0 /* Pods_CourseMirror.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +245,8 @@
 		0B4191D312F9BFB47872C91D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D2C14FA1BA2203E00E0F8C2 /* DZNEmptyDataSet.framework */,
-				3D2C14FB1BA2203E00E0F8C2 /* FontAwesome_iOS.framework */,
-				3D2C14FC1BA2203E00E0F8C2 /* PPiAwesomeButton.framework */,
-				3D2C14FD1BA2203E00E0F8C2 /* SHMultipleSelect.framework */,
-				3D2C14FE1BA2203E00E0F8C2 /* SlackTextViewController.framework */,
-				BD6D17AEE2B9B3BE46927D50 /* Pods_CourseMirror.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC323553A9A736FF5171E65F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				218D118C4B3DBFE4E407A912 /* Pods-CourseMirror.debug.xcconfig */,
-				95747D37E4603A0D67397380 /* Pods-CourseMirror.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		E507CC471B6BD20E0002E509 /* Model */ = {
@@ -379,6 +362,18 @@
 		E507CC861B6E6FBA0002E509 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				E54D8F0E1BAEFB82005846DB /* UIScrollView+EmptyDataSet.h */,
+				E54D8F0F1BAEFB82005846DB /* UIScrollView+EmptyDataSet.m */,
+				E54D8F1A1BAEFCF8005846DB /* UIAwesomeButton.h */,
+				E54D8F1B1BAEFCF8005846DB /* UIAwesomeButton.m */,
+				E54D8F1C1BAEFCF8005846DB /* UIButton+PPiAwesome.h */,
+				E54D8F1D1BAEFCF8005846DB /* UIButton+PPiAwesome.m */,
+				E54D8F111BAEFC42005846DB /* NSString+FontAwesome.h */,
+				E54D8F121BAEFC42005846DB /* NSString+FontAwesome.m */,
+				E54D8F131BAEFC42005846DB /* UIFont+FontAwesome.h */,
+				E54D8F141BAEFC42005846DB /* UIFont+FontAwesome.m */,
+				E54D8F151BAEFC42005846DB /* UIImage+FontAwesome.h */,
+				E54D8F161BAEFC42005846DB /* UIImage+FontAwesome.m */,
 				E52E70621B7BD13B002C3683 /* UIImage+ResizeAdditions.h */,
 				E52E70631B7BD13B002C3683 /* UIImage+ResizeAdditions.m */,
 				E52E70651B7BD206002C3683 /* UIImage+RoundedCornerAdditions.h */,
@@ -403,7 +398,6 @@
 				E59519011B6AB5ED0045044E /* CourseMirror */,
 				E595191E1B6AB5ED0045044E /* CourseMirrorTests */,
 				E59519001B6AB5ED0045044E /* Products */,
-				CC323553A9A736FF5171E65F /* Pods */,
 				0B4191D312F9BFB47872C91D /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -483,12 +477,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E59519251B6AB5ED0045044E /* Build configuration list for PBXNativeTarget "CourseMirror" */;
 			buildPhases = (
-				847AD4E197E475BAE9E00C7C /* Check Pods Manifest.lock */,
 				E59518FB1B6AB5ED0045044E /* Sources */,
 				E59518FC1B6AB5ED0045044E /* Frameworks */,
 				E59518FD1B6AB5ED0045044E /* Resources */,
-				3682E2C99798147D6E4B4379 /* Embed Pods Frameworks */,
-				2FFBD0AB3BD767AFC0DE3D6D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -589,54 +580,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2FFBD0AB3BD767AFC0DE3D6D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseMirror/Pods-CourseMirror-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3682E2C99798147D6E4B4379 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseMirror/Pods-CourseMirror-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		847AD4E197E475BAE9E00C7C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		E59518FB1B6AB5ED0045044E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -654,6 +597,7 @@
 				E507CC5A1B6BD2E90002E509 /* LibraryAPI.m in Sources */,
 				E59519DA1B71C6BC00E34C9D /* GZTNotificationController.m in Sources */,
 				E507CC8F1B6E8B160002E509 /* ParseClient.m in Sources */,
+				E54D8F1E1BAEFCF8005846DB /* UIAwesomeButton.m in Sources */,
 				E507CCAC1B6ED69E0002E509 /* GZTLectureViewController.m in Sources */,
 				E59519D71B71C36100E34C9D /* PDDAboutViewController.m in Sources */,
 				E507CC501B6BD26F0002E509 /* Lecture.m in Sources */,
@@ -662,18 +606,23 @@
 				E507CCAF1B6F05240002E509 /* GZTGlobalModule.m in Sources */,
 				E595190E1B6AB5ED0045044E /* SecondViewController.m in Sources */,
 				E52E70671B7BD206002C3683 /* UIImage+RoundedCornerAdditions.m in Sources */,
+				E54D8F191BAEFC42005846DB /* UIImage+FontAwesome.m in Sources */,
+				E54D8F171BAEFC42005846DB /* NSString+FontAwesome.m in Sources */,
 				E507CC941B6E992F0002E509 /* GZTUser.m in Sources */,
 				E507CC8C1B6E8B0B0002E509 /* LocalData.m in Sources */,
 				E58D88B81B7AAA560053EFA2 /* GZTSummaryTableViewController.m in Sources */,
 				E52E70641B7BD13B002C3683 /* UIImage+ResizeAdditions.m in Sources */,
 				E507CCA31B6EBEB00002E509 /* CourseCellTableViewCell.m in Sources */,
+				E54D8F101BAEFB82005846DB /* UIScrollView+EmptyDataSet.m in Sources */,
 				E59519081B6AB5ED0045044E /* AppDelegate.m in Sources */,
 				E59519DD1B71C6F300E34C9D /* PDDAboutView.m in Sources */,
+				E54D8F1F1BAEFCF8005846DB /* UIButton+PPiAwesome.m in Sources */,
 				E58D88B31B7AA81D0053EFA2 /* UIColor+PDD.m in Sources */,
 				E5683D9F1B7955D2007BA5CB /* Data.m in Sources */,
 				E595190B1B6AB5ED0045044E /* FirstViewController.m in Sources */,
 				E507CC561B6BD2910002E509 /* Question.m in Sources */,
 				E507CC791B6BFA180002E509 /* GZTSettingViewController.m in Sources */,
+				E54D8F181BAEFC42005846DB /* UIFont+FontAwesome.m in Sources */,
 				E59519C71B6FF81800E34C9D /* GZTJsonTransfer.m in Sources */,
 				E59519D21B71A44800E34C9D /* QuestionView1Cell.m in Sources */,
 				E53673BC1B75563900E141F4 /* GZTQuestionVC2.m in Sources */,
@@ -805,7 +754,6 @@
 		};
 		E59519261B6AB5ED0045044E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 218D118C4B3DBFE4E407A912 /* Pods-CourseMirror.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -818,10 +766,10 @@
 					"$(PROJECT_DIR)/build/Release-iphoneos",
 				);
 				INFOPLIST_FILE = CourseMirror/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1c4161ed-41ed-4b37-8fd8-91c8eb692439";
+				PROVISIONING_PROFILE = "da7101a7-50f1-4d4c-8a79-13e03a175adf";
 				SWIFT_OBJC_BRIDGING_HEADER = "CourseMirror/CourseMirror-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -831,7 +779,6 @@
 		};
 		E59519271B6AB5ED0045044E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95747D37E4603A0D67397380 /* Pods-CourseMirror.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -844,10 +791,10 @@
 					"$(PROJECT_DIR)/build/Release-iphoneos",
 				);
 				INFOPLIST_FILE = CourseMirror/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1c4161ed-41ed-4b37-8fd8-91c8eb692439";
+				PROVISIONING_PROFILE = "da7101a7-50f1-4d4c-8a79-13e03a175adf";
 				SWIFT_OBJC_BRIDGING_HEADER = "CourseMirror/CourseMirror-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/** $(SRCROOT)/Pods/**";

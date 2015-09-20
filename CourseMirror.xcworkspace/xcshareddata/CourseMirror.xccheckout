@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B2612FAD-B595-4930-B505-E190483E1BD0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CourseMirror</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90AB81A29C442D24F2DDDBBC197BE1A51D5E69F4</key>
+		<string>https://github.com/zjether/CourseMirror_iOS</string>
+		<key>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</key>
+		<string>https://github.com/zjether/CourseMirror_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CourseMirror.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90AB81A29C442D24F2DDDBBC197BE1A51D5E69F4</key>
+		<string>..</string>
+		<key>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</key>
+		<string>../../CourseMirror</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zjether/CourseMirror_iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>90AB81A29C442D24F2DDDBBC197BE1A51D5E69F4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6989E8967FC5C5F7DCACC60CA6703EECA8C1A32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CourseMirror</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90AB81A29C442D24F2DDDBBC197BE1A51D5E69F4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CourseMirror_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+About Us
+CourseMIRROR (Mobile In-situ Reflections and Review with Optimized Rubrics) is an interdisciplinary research project by researchers in Educational Psychology, Natural Language Processing (NLP), and Human-Computer Interaction (HCI). CourseMIRROR explores the use of reflection prompts, natural language processing, and mobile interfaces to improve STEM education in large classrooms. CourseMIRROR is in-part supported by an RDF from Learning Research and Development Center (LRDC) at the University of Pittsburgh.
+
+Team
+Dr. Muhsin Menekse muhsin {at} pitt.edu
+Dr. Diane Litman litman {at} cs.pitt.edu
+Dr. Jingtao Wang jingtaow {at} cs.pitt.edu
+Wencan Luo wencan {at} cs.pitt.edu
+Xiangmin Fan xiangmin {at} cs.pitt.edu
+
+
+Research
+The degree and quality of interaction between students and instructors are critical factors for students’ engagement, retention, and learning outcomes across domains (National Research Council, 2012). Although many suggestions and innovations have been proposed, interactive engagement is still very limited between students and instructors. This is especially true for the introductory Science, Technology, Engineering and Math (STEM) courses at the undergraduate level since these courses are generally taught in lecture halls due to a large number of students enrolled (Mervis, 2013). The larger the class size, the less likely instructors are to employ best teaching practices that foster robust learning such as timely feedback and interactive learning activities (Cuseo, 2007). Recent developments in educational technology (i.e. Massive Open Online Courses, blended learning environments) and financial troubles in universities (i.e. budget cuts by states) make it safe to predict that the class size problem will only get worse both in traditional face-to-face and online classes. So how can we modify the passive nature of lectures and increase the interaction while actively involving both students and instructors in the learning process in these circumstances?
+In order to address this problem, we present CourseMIRROR (Mobile In-situ Reflections and Review with Optimized Rubrics), a system that integrates Natural Language Processing (NLP) with a mobile application that prompts students to reflect as well as provide immediate and continuous feedback to instructors about the difficulties that their students encounter. By enhancing the student reflection and instructor feedback cycle with technological tools, this project will incorporate three lines of research: 1) role of students’ reflection and instructor’s feedback on students’ retention and learning outcomes; 2) effectiveness and reliability of NLP to summarize written responses in a meaningful way; and 3) value and design of mobile technologies to improve retention and learning in STEM domains.
+
+Classroom Adoptions
+•	CS2001, University of Pittsburgh, Fall 2014
+•	CS2610, University of Pittsburgh, Fall 2014
+•	PHYS0175, University of Pittsburgh, Spring 2015
+•	IE256, Bogazici University, Spring 2015

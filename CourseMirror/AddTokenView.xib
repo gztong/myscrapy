@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddToken">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qTf-TS-0A2">
+                    <rect key="frame" x="287.5" y="121" width="26" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4s-Pu-BGW">
+                    <rect key="frame" x="285" y="213" width="30" height="30"/>
+                    <state key="normal" title="Add">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="qTf-TS-0A2" secondAttribute="centerX" id="JpG-Z4-ZbL"/>
+                <constraint firstItem="qTf-TS-0A2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="121" id="U9d-pw-goK"/>
+                <constraint firstItem="i4s-Pu-BGW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="213" id="WRc-sP-OFh"/>
+                <constraint firstAttribute="centerX" secondItem="i4s-Pu-BGW" secondAttribute="centerX" id="gUe-cZ-KhA"/>
+            </constraints>
+            <connections>
+                <outlet property="addButton" destination="i4s-Pu-BGW" id="FSf-pt-T5B"/>
+                <outlet property="tokenField" destination="qTf-TS-0A2" id="o5z-ca-xPd"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,23 @@
+PODS:
+  - DZNEmptyDataSet (1.7)
+  - FontAwesome+iOS (0.1.4)
+  - PPiAwesomeButton (1.5.2):
+    - FontAwesome+iOS
+  - SHMultipleSelect (0.2.2)
+  - SlackTextViewController (1.6)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - FontAwesome+iOS
+  - PPiAwesomeButton
+  - SHMultipleSelect (~> 0.2.2)
+  - SlackTextViewController
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 896f8efb3b0961c5ccb59d4959ccf9280854aa3d
+  FontAwesome+iOS: 9070b682a9255ca0fdc34bcfb129ad0ba2b73b87
+  PPiAwesomeButton: 16f7279582fd36f65186b24b83ef876217363eb5
+  SHMultipleSelect: 751491f4de21614622c198a760a88272cab62bf3
+  SlackTextViewController: 84e1e4b7f12a8e3691cf97ca61c934b99058a2e8
+
+COCOAPODS: 0.38.2
